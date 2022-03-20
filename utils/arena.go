@@ -1,10 +1,11 @@
 package utils
 
 import (
-	"github.com/pkg/errors"
 	"log"
 	"sync/atomic"
 	"unsafe"
+
+	"github.com/pkg/errors"
 )
 
 type Arena struct {
